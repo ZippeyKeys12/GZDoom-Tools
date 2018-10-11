@@ -1,0 +1,19 @@
+struct cool{
+
+}
+
+class wow{
+    virtual
+    StateLabel CoolFam(){
+        while(){}
+        if(){}
+        else{}
+    }
+}
+
+enum Dang{
+    until(){}
+    do{
+        cool.Wow();
+    }while();
+}

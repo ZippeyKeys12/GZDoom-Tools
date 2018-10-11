@@ -1,0 +1,26 @@
+{
+    "name": "gzdoom-tools",
+    "displayName": "GZDoom Tools",
+    "description": "Language Support for GZDoom's ZScript",
+    "version": "0.0.1",
+    "publisher": "ZippeyKeys12",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "zscript",
+            "aliases": ["ZScript", "zscript"],
+            "extensions": [".zs",".zc",".zsc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "zscript",
+            "scopeName": "source.zscript",
+            "path": "./syntaxes/zscript.tmLanguage.json"
+        }]
+    }
+}
